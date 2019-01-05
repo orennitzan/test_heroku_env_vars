@@ -4,20 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "set ENV=development&& nodemon start index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Oren Nitzan",
   "license": "ISC",
   "engines": {
     "node": "10.X"
-  },
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "dotenv": "^6.2.0",
-    "nodemon": "^1.18.9"
   }
 }
